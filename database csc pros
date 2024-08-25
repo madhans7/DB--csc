@@ -1,0 +1,85 @@
+-- Database for cscpros
+create database cscpros;
+use cscpros;
+
+--table for couse
+create table course
+ ( cId int auto_increment not null,
+cname varchar(225) not null,
+cshname varchar(225) not null,
+duration varchar(20) not null,
+cfees int not null,
+primary key (cId) );
+
+--table for software categories
+create table softcategories
+( softId int auto_increment not null,
+softname varchar(225) not null,
+primary key (softId)
+);
+
+--table for softwares
+create table softwares
+(swId int auto_increment not null,
+swname varchar(20) not null,
+softId int not null,
+primary key (swId),
+foreign key (softId)
+        references softcategories (softId)
+);
+
+--table for coursecoverage
+create table coursecoverage
+(ccId int auto_increment not null, 
+swId int not null,
+cId int not null,
+primary key (ccId),
+foreign key (cId)
+      references course (cId),
+foreign key (swId)
+      references softwares (swId)
+);
+
+--table for student
+create table student
+(sId int auto_increment not null,
+sname varchar(20) not null,
+startingtime int not null,
+endingtime int not null,
+primary key (sId)
+);
+
+--table for staff
+create table staff
+(stId int auto_increment not null,
+stname varchar(20) not null,
+stnumber int not null,
+primary key(stId)
+);
+
+--table for student course 
+create table studentcourse
+(scId int auto_increment not null,
+sId int not null,
+cId int not null,
+primary key (scId),
+foreign key (sId)
+         references student(sId),
+foreign key (cId) 
+        references course (cId)
+);
+
+--table for staff student
+create table staffstudent
+(ssId int auto_increment not null,
+sId int not null,
+ccId int not null,
+stId int not null,
+primary key (ssId),
+foreign key (sId)
+        references student (sId),
+foreign key (ccId)
+        references coursecoverage(ccId),
+foreign key (stId)
+       references staff (stId)
+);
