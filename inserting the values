@@ -1,0 +1,359 @@
+--values for course table
+insert into course (cname,cshname, duration,cfees) values ('Diploma in computer application','DCA Tally','6months',23400);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in computer application','DCA Programming','6months',23400);
+insert into course (cname,cshname, duration,cfees) values ('Advanced diploma in Artificial Intelligence & Data Science ','ADAD','4months',39600);
+insert into course (cname,cshname, duration,cfees) values ('Advanced diploma in data analytics ','ADAD','4months',37800);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in PHP full stack developer ','DPFD','4months',29700);
+insert into course (cname,cshname, duration,cfees) values ('Advanced diploma in MERN/MEAN stack','ADMS','4months',29700);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in full stack Java Developer ','DFJD','4months',32400);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in full stack python developer ','DFPD','4months',29700);
+insert into course (cname,cshname, duration,cfees) values ('Honours diploma in full stack developer ','HDFD','1year',59400);
+insert into course (cname,cshname, duration,cfees) values ('Honours diploma in computer application','HDCA Tally','1year',45000);
+insert into course (cname,cshname, duration,cfees) values ('Honours diploma in computer application','HDCA Programming ','1year',45000);
+insert into course (cname,cshname, duration,cfees) values ('Master diploma in system administration ','MDSA','4months',31400);
+insert into course (cname,cshname, duration,cfees) values ('Certificate Course in advanced Excel ','CCAE','2months',18000);
+insert into course (cname,cshname, duration,cfees) values ('Advanced diploma in Python programming ','ADPP','4months',23400);
+insert into course (cname,cshname, duration,cfees) values ('Advanced diploma in Java programming ','ADJP','4months',23400);
+insert into course (cname,cshname, duration,cfees) values ('certified computer accountant','CCA Tally Prime','3months',20700);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in .Net','.NET','4months',27000);
+insert into course (cname,cshname, duration,cfees) values ('Diploma in MS-Office','DMO','2months',11700);
+
+
+--values for software categories
+insert into softcategories (softname) values ('END USER APPLICATION ');
+insert into softcategories (softname) values ('LANGUAGE SKILLS');
+insert into softcategories (softname) values ('DATA MANAGEMENT ');
+insert into softcategories (softname) values ('DATA WRANGLING ');
+insert into softcategories (softname) values ('DATA VISUALISATION ');
+insert into softcategories (softname) values ('MACHINE LEARNING ');
+insert into softcategories (softname) values ('DEEP LEARNING ');
+insert into softcategories (softname) values ('CODE MANAGEMENT');
+insert into softcategories (softname) values ('FRONT-END LANGUAGE AND LIBRARY');
+insert into softcategories (softname) values ('SCRIPTING LANGUAGE AND FRAMEWORK ');
+insert into softcategories (softname) values ('WEB FRAMEWORK');
+insert into softcategories (softname) values ('FINANCIAL ACCOUNTING');
+insert into softcategories (softname) values ('ADVANCED EXCEL AND VBA PROGRAMMING');
+insert into softcategories (softname) values ('DIGITAL MARKETING');
+insert into softcategories (softname) values ('CHATGPT');
+insert into softcategories (softname) values ('PROJECT');
+insert into softcategories (softname) values('.NET');
+
+
+--values for softwares
+insert into softwares (swname,softId) values('WINDOWS',1);
+insert into softwares (swname,softId) values('MS OFFICE',1);
+insert into softwares (swname,softId) values('INTERNET''',1);
+insert into softwares (swname,softId) values('TALLY PRIME',1);
+insert into softwares (swname,softId) values('CASE STUDY',1);
+insert into softwares (swname,softId) values('HARDWARE(A+)',1);
+insert into softwares (swname,softId) values('NETWORKING(N+)',1);
+insert into softwares (swname,softId) values('WINDOWS SERVER',1);
+insert into softwares (swname,softId) values('JAVA',2);
+insert into softwares (swname,softId) values('CORE JAVA',2);
+insert into softwares (swname,softId) values('C-LANGUAGE',2);
+insert into softwares (swname,softId) values('OOPs USING C++',2);
+insert into softwares (swname,softId) values('PYTHON',2);
+insert into softwares (swname,softId) values('MYSQL',3);
+insert into softwares (swname,softId) values('EXCEL',3);
+insert into softwares (swname,softId) values('MongoDB',3);
+insert into softwares (swname,softId) values('php',2);
+insert into softwares (swname,softId) values('NUMPY',4);
+insert into softwares (swname,softId) values('PANDAS',4);
+insert into softwares (swname,softId) values('MATPLOTLIB',5);
+insert into softwares (swname,softId) values('POWER BI',5);
+insert into softwares (swname,softId) values('SCIKIT-LEARN',6);
+insert into softwares (swname,softId) values('TENSORFLOW & KERAS',7);
+insert into softwares (swname,softId) values('GIT',8);
+insert into softwares (swname,softId) values('HTML-5',9);
+insert into softwares (swname,softId) values('CSS3',9);
+insert into softwares (swname,softId) values('BOOTSTRAP',9);
+insert into softwares (swname,softId) values('ADVANCED JAVASCRIPT ',9);
+insert into softwares (swname,softId) values('REACT JS',9);
+insert into softwares (swname,softId) values('ANGULAR JS',9);
+insert into softwares (swname,softId) values('PHP',10);
+insert into softwares (swname,softId) values('LARAVEL',10);
+insert into softwares (swname,softId) values('NODE JS',11);
+insert into softwares (swname,softId) values('EXPRESS JS',11);
+insert into softwares (swname,softId) values('SPRING BOOT',11);
+insert into softwares (swname,softId) values('DJANGO',11);
+insert into softwares (swname,softId) values('INTRODUCTION TO TALLY PRIME',12);
+insert into softwares (swname,softId) values('MASTERS',12);
+insert into softwares (swname,softId) values('TALLY VOUCHERS',12);
+insert into softwares (swname,softId) values('REPORTS',12);
+insert into softwares (swname,softId) values('ADVANCED ACCOUNTING',12);
+insert into softwares (swname,softId) values('ADVANCED INVENTORY',12);
+insert into softwares (swname,softId) values('SYSTEM ADMINISTRATION AND OTHERS UTILITIES',12);
+insert into softwares (swname,softId) values('POINT OF SALES',12);
+insert into softwares (swname,softId) values('MULTI LANGUAGE',12);
+insert into softwares (swname,softId) values('GOODS & SERVICE TAX',12);
+insert into softwares (swname,softId) values('TDS&TCS',12);
+insert into softwares (swname,softId) values('PAYROLL',12);
+insert into softwares (swname,softId) values('ADD_ON FEATURES',12);
+insert into softwares (swname,softId) values('ADVANCED EXCEL',13);
+insert into softwares (swname,softId) values('VBA PROGRAMMING',13);
+insert into softwares (swname,softId) values('DIGITAL MARKETING',14);
+insert into softwares (swname,softId) values('CHATGPT',15);
+insert into softwares (swname,softId) values('PROJECT',16);
+insert into softwares (swname,softId) values('VB.NET',17);
+insert into softwares (swname,softId) values('ASP.NET',17);
+insert into softwares (swname,softId) values('ADO.NET',17); 
+
+
+
+
+--values for softwares
+insert into softwares (swname,softId) values('WINDOWS',1);
+insert into softwares (swname,softId) values('MS OFFICE',1);
+insert into softwares (swname,softId) values('INTERNET''',1);
+insert into softwares (swname,softId) values('TALLY PRIME',1);
+insert into softwares (swname,softId) values('CASE STUDY',1);
+insert into softwares (swname,softId) values('HARDWARE(A+)',1);
+insert into softwares (swname,softId) values('NETWORKING(N+)',1);
+insert into softwares (swname,softId) values('WINDOWS SERVER',1);
+insert into softwares (swname,softId) values('JAVA',2);
+insert into softwares (swname,softId) values('CORE JAVA',2);
+insert into softwares (swname,softId) values('C-LANGUAGE',2);
+insert into softwares (swname,softId) values('OOPs USING C++',2);
+insert into softwares (swname,softId) values('PYTHON',2);
+insert into softwares (swname,softId) values('MYSQL',3);
+insert into softwares (swname,softId) values('EXCEL',3);
+insert into softwares (swname,softId) values('MongoDB',3);
+insert into softwares (swname,softId) values('php',2);
+insert into softwares (swname,softId) values('NUMPY',4);
+insert into softwares (swname,softId) values('PANDAS',4);
+insert into softwares (swname,softId) values('MATPLOTLIB',5);
+insert into softwares (swname,softId) values('POWER BI',5);
+insert into softwares (swname,softId) values('SCIKIT-LEARN',6);
+insert into softwares (swname,softId) values('TENSORFLOW & KERAS',7);
+insert into softwares (swname,softId) values('GIT',8);
+insert into softwares (swname,softId) values('HTML-5',9);
+insert into softwares (swname,softId) values('CSS3',9);
+insert into softwares (swname,softId) values('BOOTSTRAP',9);
+insert into softwares (swname,softId) values('ADVANCED JAVASCRIPT ',9);
+insert into softwares (swname,softId) values('REACT JS',9);
+insert into softwares (swname,softId) values('ANGULAR JS',9);
+insert into softwares (swname,softId) values('PHP',10);
+insert into softwares (swname,softId) values('LARAVEL',10);
+insert into softwares (swname,softId) values('NODE JS',11);
+insert into softwares (swname,softId) values('EXPRESS JS',11);
+insert into softwares (swname,softId) values('SPRING BOOT',11);
+insert into softwares (swname,softId) values('DJANGO',11);
+insert into softwares (swname,softId) values('INTRODUCTION TO TALLY PRIME',12);
+insert into softwares (swname,softId) values('MASTERS',12);
+insert into softwares (swname,softId) values('TALLY VOUCHERS',12);
+insert into softwares (swname,softId) values('REPORTS',12);
+insert into softwares (swname,softId) values('ADVANCED ACCOUNTING',12);
+insert into softwares (swname,softId) values('ADVANCED INVENTORY',12);
+insert into softwares (swname,softId) values('SYSTEM ADMINISTRATION AND OTHERS UTILITIES',12);
+insert into softwares (swname,softId) values('POINT OF SALES',12);
+insert into softwares (swname,softId) values('MULTI LANGUAGE',12);
+insert into softwares (swname,softId) values('GOODS & SERVICE TAX',12);
+insert into softwares (swname,softId) values('TDS&TCS',12);
+insert into softwares (swname,softId) values('PAYROLL',12);
+insert into softwares (swname,softId) values('ADD_ON FEATURES',12);
+insert into softwares (swname,softId) values('ADVANCED EXCEL',13);
+insert into softwares (swname,softId) values('VBA PROGRAMMING',13);
+insert into softwares (swname,softId) values('DIGITAL MARKETING',14);
+insert into softwares (swname,softId) values('CHATGPT',15);
+insert into softwares (swname,softId) values('PROJECT',16);
+insert into softwares (swname,softId) values('VB.NET',17);
+insert into softwares (swname,softId) values('ASP.NET',17);
+insert into softwares (swname,softId) values('ADO.NET',17); 
+
+--values for course coverage
+--DCA tally
+insert into coursecoverage(cId,swId) values(1,1);
+insert into coursecoverage(cId,swId) values(1,2);
+insert into coursecoverage(cId,swId) values(1,3);
+insert into coursecoverage(cId,swId) values(1,4);
+insert into coursecoverage(cId,swId) values(1,54);
+insert into coursecoverage(cId,swId) values(1,53);
+
+--DCA programming
+insert into coursecoverage(cId,swId) values(2,1);
+insert into coursecoverage(cId,swId) values(2,2);
+insert into coursecoverage(cId,swId) values(2,3);
+insert into coursecoverage(cId,swId) values(2,11);
+insert into coursecoverage(cId,swId) values(2,12);
+insert into coursecoverage(cId,swId) values(2,13);
+insert into coursecoverage(cId,swId) values(2,54);
+insert into coursecoverage(cId,swId) values(2,53);
+
+--ADAD
+insert into coursecoverage(cId,swId) values(3,13);
+insert into coursecoverage(cId,swId) values(3,14);
+insert into coursecoverage(cId,swId) values(3,16);
+insert into coursecoverage(cId,swId) values(3,18);
+insert into coursecoverage(cId,swId) values(3,19);
+insert into coursecoverage(cId,swId) values(3,20);
+insert into coursecoverage(cId,swId) values(3,22);
+insert into coursecoverage(cId,swId) values(3,23);
+insert into coursecoverage(cId,swId) values(3,24);
+
+--ADDA
+insert into coursecoverage(cId,swId) values(4,15);
+insert into coursecoverage(cId,swId) values(4,14);
+insert into coursecoverage(cId,swId) values(4,16);
+insert into coursecoverage(cId,swId) values(4,20);
+insert into coursecoverage(cId,swId) values(4,21);
+insert into coursecoverage(cId,swId) values(4,13);
+insert into coursecoverage(cId,swId) values(4,18);
+insert into coursecoverage(cId,swId) values(4,19);
+insert into coursecoverage(cId,swId) values(4,24);
+
+--DPFD
+insert into coursecoverage(cId,swId) values(5,25);
+insert into coursecoverage(cId,swId) values(5,26);
+insert into coursecoverage(cId,swId) values(5,27);
+insert into coursecoverage(cId,swId) values(5,28);
+insert into coursecoverage(cId,swId) values(5,29);
+insert into coursecoverage(cId,swId) values(5,14);
+insert into coursecoverage(cId,swId) values(5,16);
+insert into coursecoverage(cId,swId) values(5,31);
+insert into coursecoverage(cId,swId) values(5,32);
+insert into coursecoverage(cId,swId) values(5,24);
+
+--ADMS
+insert into coursecoverage(cId,swId) values(6,25);
+insert into coursecoverage(cId,swId) values(6,26);
+insert into coursecoverage(cId,swId) values(6,27);
+insert into coursecoverage(cId,swId) values(6,28);
+insert into coursecoverage(cId,swId) values(6,29);
+insert into coursecoverage(cId,swId) values(6,30);
+insert into coursecoverage(cId,swId) values(6,14);
+insert into coursecoverage(cId,swId) values(6,16);
+insert into coursecoverage(cId,swId) values(6,33);
+insert into coursecoverage(cId,swId) values(6,34);
+insert into coursecoverage(cId,swId) values(6,24);
+
+--DFJD
+insert into coursecoverage(cId,swId) values(7,25);
+insert into coursecoverage(cId,swId) values(7,26);
+insert into coursecoverage(cId,swId) values(7,27);
+insert into coursecoverage(cId,swId) values(7,28);
+insert into coursecoverage(cId,swId) values(7,29);
+insert into coursecoverage(cId,swId) values(7,10);
+insert into coursecoverage(cId,swId) values(7,14);
+insert into coursecoverage(cId,swId) values(7,16);
+insert into coursecoverage(cId,swId) values(7,35);
+insert into coursecoverage(cId,swId) values(7,24);
+
+--DFPD
+insert into coursecoverage(cId,swId) values(8,25);
+insert into coursecoverage(cId,swId) values(8,26);
+insert into coursecoverage(cId,swId) values(8,27);
+insert into coursecoverage(cId,swId) values(8,28);
+insert into coursecoverage(cId,swId) values(8,29);
+insert into coursecoverage(cId,swId) values(8,14);
+insert into coursecoverage(cId,swId) values(8,16);
+insert into coursecoverage(cId,swId) values(8,36);
+insert into coursecoverage(cId,swId) values(8,24);
+
+--HDFD
+insert into coursecoverage(cId,swId) values(9,11);
+insert into coursecoverage(cId,swId) values(9,12);
+insert into coursecoverage(cId,swId) values(9,9);
+insert into coursecoverage(cId,swId) values(9,13);
+insert into coursecoverage(cId,swId) values(9,25);
+insert into coursecoverage(cId,swId) values(9,26);
+insert into coursecoverage(cId,swId) values(9,27);
+insert into coursecoverage(cId,swId) values(9,28);
+insert into coursecoverage(cId,swId) values(9,29);
+insert into coursecoverage(cId,swId) values(9,14);
+insert into coursecoverage(cId,swId) values(9,16);
+insert into coursecoverage(cId,swId) values(9,36);
+insert into coursecoverage(cId,swId) values(9,35);
+insert into coursecoverage(cId,swId) values(9,54);
+
+--.NET
+insert into coursecoverage(cId,swId) values(10,11);
+insert into coursecoverage(cId,swId) values(10,55);
+insert into coursecoverage(cId,swId) values(10,56);
+insert into coursecoverage(cId,swId) values(10,57);
+insert into coursecoverage(cId,swId) values(10,54);
+
+--HDCA Tally
+insert into coursecoverage(cId,swId) values(11,1);
+insert into coursecoverage(cId,swId) values(11,2);
+insert into coursecoverage(cId,swId) values(11,3);
+insert into coursecoverage(cId,swId) values(11,25);
+insert into coursecoverage(cId,swId) values(11,26);
+insert into coursecoverage(cId,swId) values(11,14);
+insert into coursecoverage(cId,swId) values(11,37);
+insert into coursecoverage(cId,swId) values(11,38);
+insert into coursecoverage(cId,swId) values(11,39);
+insert into coursecoverage(cId,swId) values(11,40);
+insert into coursecoverage(cId,swId) values(11,41);
+insert into coursecoverage(cId,swId) values(11,42);
+insert into coursecoverage(cId,swId) values(11,43);
+insert into coursecoverage(cId,swId) values(11,44);
+insert into coursecoverage(cId,swId) values(11,45);
+insert into coursecoverage(cId,swId) values(11,46);
+insert into coursecoverage(cId,swId) values(11,47);
+insert into coursecoverage(cId,swId) values(11,48);
+insert into coursecoverage(cId,swId) values(11,49);
+insert into coursecoverage(cId,swId) values(11,54);
+insert into coursecoverage(cId,swId) values(11,50);
+insert into coursecoverage(cId,swId) values(11,51);
+insert into coursecoverage(cId,swId) values(11,54);
+insert into coursecoverage(cId,swId) values(11,52);
+insert into coursecoverage(cId,swId) values(11,53);
+
+--HDCA Programming
+insert into coursecoverage(cId,swId) values(12,1);
+insert into coursecoverage(cId,swId) values(12,2);
+insert into coursecoverage(cId,swId) values(12,3);
+insert into coursecoverage(cId,swId) values(12,25);
+insert into coursecoverage(cId,swId) values(12,26);
+insert into coursecoverage(cId,swId) values(12,14);
+insert into coursecoverage(cId,swId) values(12,11);
+insert into coursecoverage(cId,swId) values(12,12);
+insert into coursecoverage(cId,swId) values(12,54);
+insert into coursecoverage(cId,swId) values(12,13);
+insert into coursecoverage(cId,swId) values(12,54);
+insert into coursecoverage(cId,swId) values(12,52);
+insert into coursecoverage(cId,swId) values(12,53);
+
+--MDSA
+insert into coursecoverage(cId,swId) values(13,6);
+insert into coursecoverage(cId,swId) values(13,7);
+insert into coursecoverage(cId,swId) values(13,8);
+
+--DMO
+insert into coursecoverage(cId,swId) values(14,1);
+insert into coursecoverage(cId,swId) values(14,2);
+insert into coursecoverage(cId,swId) values(14,3);
+insert into coursecoverage(cId,swId) values(14,5);
+
+--CCAE
+insert into coursecoverage(cId,swId) values(15,50);
+insert into coursecoverage(cId,swId) values(15,51);
+
+--ADPP
+insert into coursecoverage(cId,swId) values(16,11);
+insert into coursecoverage(cId,swId) values(16,12);
+insert into coursecoverage(cId,swId) values(16,13);
+
+--ADJP
+insert into coursecoverage(cId,swId) values(17,11);
+insert into coursecoverage(cId,swId) values(17,12);
+insert into coursecoverage(cId,swId) values(17,25);
+insert into coursecoverage(cId,swId) values(17,26);
+insert into coursecoverage(cId,swId) values(17,9);
+insert into coursecoverage(cId,swId) values(17,54);
+
+--CCA Tally Prime
+insert into coursecoverage(cId,swId) values(18,37);
+insert into coursecoverage(cId,swId) values(18,38);
+insert into coursecoverage(cId,swId) values(18,39);
+insert into coursecoverage(cId,swId) values(18,40);
+insert into coursecoverage(cId,swId) values(18,41);
+insert into coursecoverage(cId,swId) values(18,42);
+insert into coursecoverage(cId,swId) values(18,43);
+insert into coursecoverage(cId,swId) values(18,44);
+insert into coursecoverage(cId,swId) values(18,45);
+insert into coursecoverage(cId,swId) values(18,46);
+insert into coursecoverage(cId,swId) values(18,47);
+insert into coursecoverage(cId,swId) values(18,48);
+insert into coursecoverage(cId,swId) values(18,49);
+insert into coursecoverage(cId,swId) values(18,54);
